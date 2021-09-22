@@ -1,0 +1,18 @@
+{
+    "sourceFile": "docker-compose.yml",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1631478441679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1631478441679,
+            "name": "Commit-0",
+            "content": "version: \"3\"\r\nservices: \r\n  web:\r\n    build:\r\n      context: .\r\n      dockerfile: Dockerfile.dev\r\n    ports: \r\n      - \"3000:3000\"\r\n    volumes: \r\n      - /app/node_modules\r\n      - .:/app"
+        }
+    ]
+}

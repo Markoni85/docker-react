@@ -1,0 +1,54 @@
+{
+    "sourceFile": "src/App.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1631471368539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1631473690979,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,25 @@\n+import logo from './logo.svg';\n+import './App.css';\n+\n+function App() {\n+  return (\n+    <div className=\"App\">\n+      <header className=\"App-header\">\n+        <img src={logo} className=\"App-logo\" alt=\"logo\" />\n+        <p>\n+           My First running app inside Docker\n+        </p>\n+        <a\n+          className=\"App-link\"\n+          href=\"https://reactjs.org\"\n+          target=\"_blank\"\n+          rel=\"noopener noreferrer\"\n+        >\n+          Learn React\n+        </a>\n+      </header>\n+    </div>\n+  );\n+}\n+\n+export default App;\n"
+                },
+                {
+                    "date": 1631473791858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <div className=\"App\">\n       <header className=\"App-header\">\n         <img src={logo} className=\"App-logo\" alt=\"logo\" />\n         <p>\n-           My First running app inside Docker\n+           My First running app inside Docker fdgdfgdg\n         </p>\n         <a\n           className=\"App-link\"\n           href=\"https://reactjs.org\"\n@@ -22,29 +22,4 @@\n   );\n }\n \n export default App;\n-import logo from './logo.svg';\n-import './App.css';\n-\n-function App() {\n-  return (\n-    <div className=\"App\">\n-      <header className=\"App-header\">\n-        <img src={logo} className=\"App-logo\" alt=\"logo\" />\n-        <p>\n-           My First running app inside Docker\n-        </p>\n-        <a\n-          className=\"App-link\"\n-          href=\"https://reactjs.org\"\n-          target=\"_blank\"\n-          rel=\"noopener noreferrer\"\n-        >\n-          Learn React\n-        </a>\n-      </header>\n-    </div>\n-  );\n-}\n-\n-export default App;\n"
+                },
+                {
+                    "date": 1631473813582,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <div className=\"App\">\n       <header className=\"App-header\">\n         <img src={logo} className=\"App-logo\" alt=\"logo\" />\n         <p>\n-           My First running app inside Docker fdgdfgdg\n+          Edit <code>src/App.js</code> and save to reload.\n         </p>\n         <a\n           className=\"App-link\"\n           href=\"https://reactjs.org\"\n"
+                },
+                {
+                    "date": 1631473889828,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n           href=\"https://reactjs.org\"\n           target=\"_blank\"\n           rel=\"noopener noreferrer\"\n         >\n-          Learn React\n+          Learn React with Docker\n         </a>\n       </header>\n     </div>\n   );\n"
+                },
+                {
+                    "date": 1631474223772,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,22 +3,9 @@\n \n function App() {\n   return (\n     <div className=\"App\">\n-      <header className=\"App-header\">\n-        <img src={logo} className=\"App-logo\" alt=\"logo\" />\n-        <p>\n-          Edit <code>src/App.js</code> and save to reload.\n-        </p>\n-        <a\n-          className=\"App-link\"\n-          href=\"https://reactjs.org\"\n-          target=\"_blank\"\n-          rel=\"noopener noreferrer\"\n-        >\n-          Learn React with Docker\n-        </a>\n-      </header>\n+      <p>fdjfsdjfgajsgfajk gfasjkhfgasgasdkjhg</p>\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1631474748560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,22 @@\n \n function App() {\n   return (\n     <div className=\"App\">\n-      <p>fdjfsdjfgajsgfajk gfasjkhfgasgasdkjhg</p>\n+      <header className=\"App-header\">\n+        <img src={logo} className=\"App-logo\" alt=\"logo\" />\n+        <p>\n+          Edit <code>src/App.js</code> and save to reload.\n+        </p>\n+        <a\n+          className=\"App-link\"\n+          href=\"https://reactjs.org\"\n+          target=\"_blank\"\n+          rel=\"noopener noreferrer\"\n+        >\n+          Learn React with Docker\n+        </a>\n+      </header>\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1631474943753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n           href=\"https://reactjs.org\"\n           target=\"_blank\"\n           rel=\"noopener noreferrer\"\n         >\n-          Learn React with Docker\n+          Learn React mmarinkovic\n         </a>\n       </header>\n     </div>\n   );\n"
+                },
+                {
+                    "date": 1631475251439,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n           href=\"https://reactjs.org\"\n           target=\"_blank\"\n           rel=\"noopener noreferrer\"\n         >\n-          Learn React mmarinkovic\n+          Learn React yyyyyyyyyyyyyyyyyyyyyyyyyyyy\n         </a>\n       </header>\n     </div>\n   );\n"
+                },
+                {
+                    "date": 1631478715488,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n           href=\"https://reactjs.org\"\n           target=\"_blank\"\n           rel=\"noopener noreferrer\"\n         >\n-          Learn React yyyyyyyyyyyyyyyyyyyyyyyyyyyy\n+          Learn React\n         </a>\n       </header>\n     </div>\n   );\n"
+                }
+            ],
+            "date": 1631471368539,
+            "name": "Commit-0",
+            "content": "import logo from './logo.svg';\nimport './App.css';\n\nfunction App() {\n  return (\n    <div className=\"App\">\n      <header className=\"App-header\">\n        <img src={logo} className=\"App-logo\" alt=\"logo\" />\n        <p>\n           My First running app inside Docker\n        </p>\n        <a\n          className=\"App-link\"\n          href=\"https://reactjs.org\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          Learn React\n        </a>\n      </header>\n    </div>\n  );\n}\n\nexport default App;\n"
+        }
+    ]
+}

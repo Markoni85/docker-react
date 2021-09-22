@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/docker-compose.yml",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1631478195495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1631478381261,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n version: \"3\"\r\n services: \r\n   web:\r\n-    build: .\r\n+    build:\r\n+      context: .\r\n+      dockerfile: Dockerfile.dev\r\n     ports: \r\n       - \"3000:3000\"\r\n     volumes: \r\n       - /app/node_modules\r\n"
+                }
+            ],
+            "date": 1631478195495,
+            "name": "Commit-0",
+            "content": "version: \"3\"\r\nservices: \r\n  web:\r\n    build: .\r\n    ports: \r\n      - \"3000:3000\"\r\n    volumes: \r\n      - /app/node_modules\r\n      - .:/app"
+        }
+    ]
+}
