@@ -1,0 +1,10 @@
+language: generic
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t mmarinkovic/docker-react -f Docekrfile.dev .
+
+script:
+  - docker run -e CI=true mmarinkovic/docker-react npm run test
